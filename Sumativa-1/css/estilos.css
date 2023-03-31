@@ -390,3 +390,49 @@ a:hover {
 
 /*FIN PAGINA DE EMPLEOS*/
 
+.emple {
+    background-image: url(/Sumativa-1/imagenes/plantilla-diseno-fondo-degradado-minimalista_483537-2861.avif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.infor {
+    background-image: url(/Sumativa-1/imagenes/fondo-placa-circuitos-estilo-plano_52683-15669.avif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.error {
+    background-image: url(/Sumativa-1/imagenes/errors-black-simple-background-minimalism-wallpaper-preview.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.retail {
+    background-image: url(/Sumativa-1/imagenes/retail.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.minero{
+    background-image: url(/Sumativa-1/imagenes/minera.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.encuesta{
+    max-width: 600px;
+    margin-top: 50px;
+    background-color: #56b2ce;
+    font-style: white;
+}
