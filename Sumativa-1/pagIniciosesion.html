@@ -1,45 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <html lang="es">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="trabajo" content="Pagina creada para la busqueda de trabajo"/>
-    <meta name="palabras clave" content="trabajo, empleo, laburo"/>
-    <meta name="autor" content="Grupo 4" />
-    <meta name="copyright" content="FuturoTrabajo" />
-    <link rel="stylesheet" href="css/estilos.css">
-    <title> Futuro trabajo </title>
- </head>   
-
- <header>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio de Sesion</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+ <link rel="stylesheet" href="css/estilos.css">
+</head>
+  <header>
     <div class="menu-p">
         <div><a class="logo" href="pagPrincipal.html">Trabajo Futuro</a></div>
             <nav class="menu">
-                <a href="pagIniciosesion.html">Inicia sesion</a>
-                <a href="pagRegistro.html">Registrate</a>
-                <a href="pagEmpleo.html">Empleo</a>
-                <a href="#">Cuenta Empresa</a>
-                <a href="#">Cuenta Persona</a>
-                <a href="#">Nosotros</a>
-                
-                
+              <a href="pagIniciosesion.html">Inicia sesion</a>
+              <a href="pagRegistro.html">Registrate</a>
+              <a href="#">Personas</a>
+              <a href="pagEmpleo.html">Empleo</a>
+              <a href="pagNosotros.html">Nosotros</a>
             </nav>
      </div>
 </header>
-
 <body>
     <div class="container-general">
-            <div class="saludo"><h1>Inicia sesion con tus credenciales</h1></div>
+            <div class="saludo"><h1>Iniciar sesion</h1></div>
                 <form action="" method="POST" id="form">
                     <div class="form">
                         <label class="bienvenida">E-mail</label>
                         <input class="bienvenida" type="text" id="email" name="">
                         <label class="bienvenida">Contraseña</label>
                         <input class="bienvenida" type="password" id="pass">
-                        <button type="submit" class="btnInicio">Inicia sesion</button>
+                        <a class="recuperarContraseña" href="pagNosotros.html">¿Haz olvidado tu contraseña?</a>
+                        <button type="submit" class="btn btnInicio">Inicia sesion</button>
+
                         <p class="warnings" id="warnings"></p>
                     </div>
                 </form>

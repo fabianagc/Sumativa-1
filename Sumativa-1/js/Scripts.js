@@ -15,7 +15,7 @@ form.addEventListener("submit", e => {
         entrar = true
     }
     if (!regexPass.test(pass.value)) {
-        warnings += '* Error : Minimo 8 caracteres Maximo 15, Al menos una letra mayúscula y al menos una letra minucula, un dígito, no espacios en blanco y al menos 1 caracter especial<br>'
+        warnings += '* Error : La contraseña debe estar entre 8 y 15 caracteres, Al menos una letra mayúscula y una minucula, un dígito, no espacios en blanco y al menos 1 caracter especial.<br>'
         entrar = true
     }
 
